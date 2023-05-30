@@ -17,11 +17,11 @@ const passportLocal = require("./config/passport-local-strategy");
 const MongoStore = require("connect-mongo");
 const flash = require("connect-flash");
 const customMware = require("./config/middleware");
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use('/css', express.static('css'));
+app.use("/css", express.static("css"));
 app.use(cookieParser());
 app.use(expressLayouts);
 
@@ -29,14 +29,13 @@ app.use(expressLayouts);
 app.set("view engine", "ejs");
 app.set("views", "./views");
 
-mongoose.set('strictQuery', false);
+mongoose.set("strictQuery", false);
 // mongoose.connect(mongoUrl,{useNewUrlParser:true})
-mongoose
-    .connect(process.env.MONGODB_URL, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    })
-    
+mongoose.connect(process.env.MONGODB_URL, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
 // mongo store is used to store the session cookie in the db
 app.use(
   session({
