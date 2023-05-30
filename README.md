@@ -1,13 +1,10 @@
-# Placement-Cell
+#Placement Cell
 
 Employees can sign in and add details of the students and their placement details.
-This placement cell web application  created for employees to manage interviews of students, and allocate students the companies and schedule a interview.
-This placement cell to keeps records of students and schedule interviews with different companies. 
-
+This placement cell web application created for employees to manage interviews of students, and allocate students the companies and schedule a interview.
+This placement cell to keeps records of students and schedule interviews with different companies.
 
 This web application is built using Node.Js, EJS, MongoDB, ExpressJs
-
-
 
 <img width="1438" alt="Sign-In" src="https://user-images.githubusercontent.com/115941802/211268075-b175bec6-18ce-4cbf-afaf-e78024827c18.png">
 
