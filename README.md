@@ -9,11 +9,14 @@ This web application is built using Node.Js, EJS, MongoDB, ExpressJs
 ![Screenshot (136)](https://github.com/GirishMane/Placement-Cell/assets/90815086/d08f2fcd-fd31-4b5a-be32-dd6eb5e5c600)
 # Login Page
 ![Screenshot (135)](https://github.com/GirishMane/Placement-Cell/assets/90815086/e75044db-3fb9-4479-9806-dbdce5e5b603)
+
 # Dashboard Page
-![Screenshot (133)](https://github.com/GirishMane/Placement-Cell/assets/90815086/2bd3e9eb-0090-4108-b835-a861997)
-4bd4a)
-# Maximize View of Dashboard Page
-![Screenshot (130)](https://github.com/GirishMane/Placement-Cell/assets/90815086/51459dcc-3505-44f6-a024-2850ec3750c7)
+![Screenshot (130)](https://github.com/GirishMane/Placement-Cell/assets/90815086/7dfbde36-7a03-421b-8b6e-19db30565aaf)
+
+# Maximize View Of Dashboard Page
+![Screenshot (133)](https://github.com/GirishMane/Placement-Cell/assets/90815086/3e6d29be-9386-4330-b0bf-2d47ba09eb08)
+
+
 # Add Interview Page
 ![Screenshot (132)](https://github.com/GirishMane/Placement-Cell/assets/90815086/3692a9f4-0db3-4f2d-923a-37dba78ef131)
 
