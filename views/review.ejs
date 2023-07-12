@@ -1,0 +1,28 @@
+<!-- CSS link -->
+<link rel="stylesheet" href="../css/add_review.css">
+
+<!-- Add review form -->
+<% if (locals.user) { %>
+  <div class="container mt-4 col-md-6">
+    <div class="intro">
+      <div class="card gradient-custom" style="border-radius: 1rem;">
+        <form class="row g-4 mt-4 p-3" style="--bs-border-opacity: 0.5" action="/review1" method="POST">
+          <h4>Reviews</h4>
+          <div class="col-12">
+            <label for="company" class="form-label">Company</label>
+            <input type="text" class="form-control" placeholder="Enter Company" id="company" name="reviews[]" required />
+          </div>
+          <div class="col-12">
+            <label for="review" class="form-label">Review</label>
+            <input type="text" class="form-control" placeholder="Enter Review" id="review" name="reviews[]" required />
+          </div>
+          <div class="text-center py-2">
+            <button class="btn btn-light btn-lg btn-rounded px-4" type="submit">Add Review</button>
+          </div>
+          <button> <a href="/all_reviews">See All Reviews</a></button>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+<% } %>

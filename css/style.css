@@ -4,9 +4,21 @@
 	box-sizing: border-box;
 }
 
+body{
+	/*background-color: lightgray;*/
+	background-image: url(bb.jpg);	
+	background-size:  140%; /* Adjust the values as needed */
+    background-repeat: no-repeat;
+    background-position: center;
+
+	/* Other existing styles */
+	
+  }
+
 .header {
 	width: 100%;
 	background-image: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+	
 }
 
 navbar-brand:hover {

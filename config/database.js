@@ -1,7 +1,7 @@
-
 //connecting mongoose with database
 
 const mongoose = require("mongoose");
+const colors = require('colors')
 require("dotenv").config();
 exports.connect = () => {
   mongoose
@@ -9,7 +9,7 @@ exports.connect = () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
-    .then(console.log("DB CONNECTED SUCCESSFULLY"))
+    .then(console.log("DB CONNECTED SUCCESSFULLY".bgGreen.white))
     .catch((err) => {
       console.log("DB CONNECTION FAILED");
       console.log(err);

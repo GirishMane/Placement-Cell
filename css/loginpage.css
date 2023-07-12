@@ -4,6 +4,17 @@ body,
   height: 100%;
 }
 
+body{
+  /*background-color: lightgray;*/
+  background-image: url(background.jpg);
+  background-size:  100%;
+  /* Other existing styles */
+}
+
+
+
+
+
 .bg-image {
   /* Full height */
   height: 100%;

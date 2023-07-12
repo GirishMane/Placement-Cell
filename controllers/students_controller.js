@@ -1,6 +1,7 @@
 const Student = require("../models/student");
 const Interview = require("../models/interview");
 
+
 // render add student page
 module.exports.addStudent = (req, res) => {
   if (req.isAuthenticated()) {
@@ -147,3 +148,5 @@ module.exports.update = async (req, res) => {
     return res.redirect("back");
   }
 };
+
+

@@ -1,3 +1,4 @@
+// This is model for interviews
 const mongoose = require("mongoose");
 
 const interviewSchema = new mongoose.Schema(

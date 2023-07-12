@@ -1,0 +1,29 @@
+<!-- reviews.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All Reviews</title>
+  <style>
+    
+    body{
+      /* background-color: aqua; */
+      /* background-image: url("../css/bgimg.jpg"); */
+      background-size: cover;
+      background-image: none;
+      height: 200%;
+      background-color: #007bff;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <h1>All Reviews</h1>
+  <% reviews.forEach((review) => { %>
+    <div>
+      <h3>Company: <%= review.company %></h3>
+      <p>Review: <%= review.review %></p>
+    </div>
+    <hr>
+  <% }) %>
+</body>
+</html>

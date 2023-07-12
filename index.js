@@ -2,7 +2,13 @@ require("./config/database").connect();
 const express = require("express");
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
+const colors = require('colors');
+const jobsRouter = require('./routes/jobs');
+const resumeRouter = require('./routes/resume');
+
 // const path = require("path")
+
+// To make express executable
 const app = express();
 const { PORT, MONGODB_URL, SESSION_SECRET_KEY } = process.env;
 
@@ -20,7 +26,7 @@ const customMware = require("./config/middleware");
 const mongoose = require("mongoose");
 
 app.use(bodyParser.urlencoded({ extended: false }));
-
+app.use(express.static('public'));
 app.use("/css", express.static("css"));
 app.use(cookieParser());
 app.use(expressLayouts);
@@ -67,10 +73,13 @@ app.use(customMware.setFlash);
 
 // use express router
 app.use("/", require("./routes"));
+app.use('/', jobsRouter);
+app.use('/', resumeRouter);
+
 
 app.listen(PORT || 5000, (err) => {
   if (err) {
     console.log(`Error in running the server: ${err}`);
   }
-  console.log(`server is running on port: ${PORT}`);
+  console.log(`server is running on port: ${PORT}`.bgCyan.white);
 });

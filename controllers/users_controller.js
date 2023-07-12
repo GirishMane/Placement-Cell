@@ -1,4 +1,5 @@
 const User = require("../models/user");
+const reviewModel = require("../models/review");
 
 module.exports.profile = function (req, res) {
   return res.render("user_profile", {
@@ -114,4 +115,29 @@ module.exports.destroySession = (req, res) => {
     req.flash("success", "Logged out successfully!");
     return res.redirect("/");
   });
+};
+
+module.exports.reviewController = async (req, res) => {
+  try {
+    const reviews = await reviewModel.find();
+    res.render("reviews", { title: "All Reviews", reviews });
+  } catch (err) {
+    console.log(err);
+    req.flash("error", "Failed to fetch reviews!");
+    return res.redirect("back");
+  }
+};
+
+
+
+// Add this function below the existing controller functions in the file
+module.exports.getAllReviews = async (req, res) => {
+  try {
+    const reviews = await reviewModel.find();
+    res.render("reviews", { title: "All Reviews", reviews });
+  } catch (err) {
+    console.log(err);
+    req.flash("error", "Failed to fetch reviews!");
+    return res.redirect("back");
+  }
 };

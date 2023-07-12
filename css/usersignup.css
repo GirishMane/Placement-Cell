@@ -4,6 +4,11 @@ body,
   height: 80%;
 }
 
+body{
+  background-color: lightgray;
+  /* Other existing styles */
+}
+
 @media (min-width: 560px) and (max-width: 750px) {
 
   html,
