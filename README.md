@@ -8,38 +8,63 @@ This web application is built using Node.Js, EJS, MongoDB, ExpressJs
 
 # Signup Page
 
-![Screenshot (136)](https://github.com/GirishMane/Placement-Cell/assets/90815086/d08f2fcd-fd31-4b5a-be32-dd6eb5e5c600)
+![Screenshot (167)](https://github.com/GirishMane/Placement-Cell/assets/90815086/01dcc381-23ff-4399-b492-ad83253f3354)
 
-# Login Page
 
-![Screenshot (135)](https://github.com/GirishMane/Placement-Cell/assets/90815086/e75044db-3fb9-4479-9806-dbdce5e5b603)
+# Signin Page
+![Screenshot (157)](https://github.com/GirishMane/Placement-Cell/assets/90815086/a78623d5-0c46-4f6b-9f13-bf50cc2d045c)
+
+
 
 # Dashboard Page
 
-![Screenshot (130)](https://github.com/GirishMane/Placement-Cell/assets/90815086/7dfbde36-7a03-421b-8b6e-19db30565aaf)
+![Screenshot (158)](https://github.com/GirishMane/Placement-Cell/assets/90815086/1ba1da44-af89-4e07-afba-fd9d8f1f1b5c)
+
 
 # Maximize View Of Dashboard Page
 
-![Screenshot (133)](https://github.com/GirishMane/Placement-Cell/assets/90815086/3e6d29be-9386-4330-b0bf-2d47ba09eb08)
+![Screenshot (159)](https://github.com/GirishMane/Placement-Cell/assets/90815086/e3a9d06e-9309-4e69-8c75-b876d4193ac7)
+
 
 # Add Interview Page
 
-![Screenshot (132)](https://github.com/GirishMane/Placement-Cell/assets/90815086/3692a9f4-0db3-4f2d-923a-37dba78ef131)
+![Screenshot (161)](https://github.com/GirishMane/Placement-Cell/assets/90815086/cb0cb591-6355-489c-930f-f267011a90e1)
+
 
 # Add Student Page
 
-![Screenshot (131)](https://github.com/GirishMane/Placement-Cell/assets/90815086/d04e405d-aa1e-4493-a0c9-fde94e5bca39)
+![Screenshot (160)](https://github.com/GirishMane/Placement-Cell/assets/90815086/8044d874-4d28-4985-857c-7ecc3b047f4e)
+
 
 # Update Profile
 
-![Screenshot (134)](https://github.com/GirishMane/Placement-Cell/assets/90815086/ea6e9a3c-6e7c-40e3-a6d6-c90a55a885e4)
+![Screenshot (166)](https://github.com/GirishMane/Placement-Cell/assets/90815086/8c0eff97-a803-4df0-a415-4876bf84a548)
 
-Libraries Used:
+# Interview Page
+
+![Screenshot (162)](https://github.com/GirishMane/Placement-Cell/assets/90815086/6453478f-a3ce-4027-9900-5f09bb86ccea)
+
+# Interview answer Page
+![Screenshot (163)](https://github.com/GirishMane/Placement-Cell/assets/90815086/a4f824e0-d1be-4655-a9e4-0135d9f59620)
+
+# Professional Resume
+
+![Screenshot (164)](https://github.com/GirishMane/Placement-Cell/assets/90815086/d531fc39-ae1c-4342-8186-1931fbd88594)
+
+# Templates Page
+![Screenshot (165)](https://github.com/GirishMane/Placement-Cell/assets/90815086/2bed260d-9281-405d-bbac-d44094c98893)
+
+
+Libraries or Packages Used:
 
 bcryptjs,
+dotenv,
+colors,
+express,
+mongoose,
+nodemon,
 connect-flash,
 connect-mongo,
 cookie-parser,
-dotenv,
 passport,
 passport-local.
